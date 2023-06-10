@@ -3,7 +3,7 @@
   font-family: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB,
     Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
   font-weight: 300;
-  font-size: 32rpx;
+  font-size: 32px;
   line-height: 1.8;
   word-wrap: break-word;
   word-break: normal;
@@ -11,8 +11,8 @@
 }
 
 .h2w__main {
-  margin: 0 40rpx 40rpx 40rpx;
-  padding-top: 40rpx;
+  margin: 0 40px 40px 40px;
+  padding-top: 40px;
 }
 
 /**标题**/
@@ -44,40 +44,40 @@
 
 .h2w__h1 {
   border-bottom-style: double;
-  border-bottom-width: 6rpx;
-  font-size: 42rpx;
-  padding-bottom: 10rpx;
-  margin-bottom: 20rpx;
+  border-bottom-width: 6px;
+  font-size: 42px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .h2w__h2 {
   border-bottom-style: solid;
-  border-bottom-width: 1rpx;
-  font-size: 40rpx;
-  padding-bottom: 8rpx;
-  margin-bottom: 18rpx;
+  border-bottom-width: 1px;
+  font-size: 40px;
+  padding-bottom: 8px;
+  margin-bottom: 18px;
 }
 
 .h2w__h3 {
-  font-size: 38rpx;
-  padding-bottom: 6rpx;
-  margin-bottom: 12rpx;
+  font-size: 38px;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 .h2w__h4 {
-  font-size: 36rpx;
-  padding-bottom: 4rpx;
-  margin-bottom: 12rpx;
+  font-size: 36px;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
 }
 
 .h2w__h5 {
-  font-size: 34rpx;
-  padding-bottom: 2rpx;
-  margin-bottom: 12rpx;
+  font-size: 34px;
+  padding-bottom: 2px;
+  margin-bottom: 12px;
 }
 
 .h2w__h6 {
-  margin-bottom: 12rpx;
+  margin-bottom: 12px;
 }
 
 /**组件父级容器**/
@@ -100,7 +100,7 @@
   border-collapse: collapse;
   border-spacing: 0;
   display: table;
-  margin-bottom: 40rpx;
+  margin-bottom: 40px;
   white-space: nowrap;
 }
 
@@ -134,9 +134,9 @@
 
 .h2w__th,
 .h2w__td {
-  padding: 8rpx 16rpx;
-  font-size: 28rpx;
-  border-width: 1rpx;
+  padding: 8px 16px;
+  font-size: 28px;
+  border-width: 1px;
   border-style: solid;
   display: table-cell;
 }
@@ -148,12 +148,12 @@
 /**代码块**/
 .h2w__pre {
   /*white-space:nowrap;*/
-  padding: 10rpx 14rpx 10rpx 10rpx;
-  font-size: 28rpx;
+  padding: 10px 14px 10px 10px;
+  font-size: 28px;
   word-break: normal;
-  border-width: 1rpx;
+  border-width: 1px;
   border-style: solid;
-  margin-bottom: 40rpx;
+  margin-bottom: 40px;
   white-space: nowrap;
   overflow-x: auto;
   tab-size: 4;
@@ -176,11 +176,11 @@
 }
 
 .h2w__code {
-  padding: 4rpx 8rpx;
-  margin: 0 4rpx;
-  border-width: 1rpx;
+  padding: 4px 8px;
+  margin: 0 4px;
+  border-width: 1px;
   border-style: solid;
-  border-radius: 8rpx;
+  border-radius: 8px;
   font-size: 80%;
   overflow-x: auto;
 }
@@ -210,7 +210,7 @@
 /**列表**/
 .h2w__ul,
 .h2w__ol {
-  margin-bottom: 40rpx;
+  margin-bottom: 40px;
   padding-left: 1rem;
 }
 
@@ -225,7 +225,7 @@
 
 /**todo**/
 .h2w__todogroup {
-  margin-bottom: 40rpx;
+  margin-bottom: 40px;
 }
 
 .h2w__todogroup .h2w__todogroup {
@@ -272,13 +272,13 @@
 
 /**块元素**/
 .h2w__p {
-  margin: 20rpx 0 20rpx 0;
+  margin: 20px 0 20px 0;
 }
 
 .h2w__blockquote {
-  border-left-width: 8rpx;
+  border-left-width: 8px;
   border-left-style: solid;
-  padding: 0 20rpx;
+  padding: 0 20px;
 }
 
 /**内连元素**/
@@ -317,20 +317,20 @@
 
 /**链接**/
 .h2w__a {
-  margin: 0 8rpx;
-  border-bottom-width: 1rpx;
+  margin: 0 8px;
+  border-bottom-width: 1px;
   border-bottom-style: solid;
   line-height: 1;
 }
 
 .h2w__hr {
-  height: 8rpx;
-  margin: 40rpx 0;
+  height: 8px;
+  margin: 40px 0;
 }
 
 /**荧光标记**/
 .h2w__mark {
-  border-radius: 4rpx;
+  border-radius: 4px;
 }
 
 /**上标、下标**/
@@ -363,7 +363,7 @@ video {
 
 video {
   width: 100%;
-  margin: 10rpx auto;
+  margin: 10px auto;
 }
 
 image {
@@ -377,7 +377,7 @@ video {
 }
 
 .h2w__latex--line {
-  margin: 4rpx 8rpx;
+  margin: 4px 8px;
   vertical-align: middle;
 }
 .h2w__latex--block {
@@ -395,7 +395,7 @@ video {
 }
 .h2w__yumlView {
   margin: 0 auto;
-  padding-bottom: 40rpx;
+  padding-bottom: 40px;
 }
 
 /**代码行号**/
