@@ -43,11 +43,11 @@ module.exports = {
     'python-repl',
     'typescript',
 
-    // 'csharp',
-    // 'http',
-    // 'swift',
-    // 'yaml',
-    // 'markdown',
+    'csharp',
+    'http',
+    'swift',
+    'yaml',
+    'markdown',
     // 'powershell',
     // 'ruby',
     // 'makefile',
@@ -63,8 +63,8 @@ module.exports = {
     // 'apache',
     // 'applescript',
     // 'arcade',
-    // 'cpp',
-    // 'arduino',
+    'cpp',
+    'arduino',
     // 'armasm',
     // 'asciidoc',
     // 'aspectj',
@@ -81,7 +81,7 @@ module.exports = {
     // 'clean',
     // 'clojure-repl',
     // 'clojure',
-    // 'cmake',
+    'cmake',
     // 'coffeescript',
     // 'coq',
     // 'cos',
@@ -93,7 +93,7 @@ module.exports = {
     // 'diff',
     // 'django',
     // 'dns',
-    // 'dockerfile',
+    'dockerfile',
     // 'dos',
     // 'dsconfig',
     // 'dts',
@@ -131,9 +131,9 @@ module.exports = {
     // 'jboss-cli',
     // 'julia-repl',
     // 'julia',
-    // 'kotlin',
+    'kotlin',
     // 'lasso',
-    // 'latex',
+    'latex',
     // 'ldif',
     // 'leaf',
     // 'lisp',
@@ -142,7 +142,7 @@ module.exports = {
     // 'llvm',
     // 'lsl',
     // 'mathematica',
-    // 'matlab',
+    'matlab',
     // 'maxima',
     // 'mel',
     // 'mercury',
@@ -182,7 +182,7 @@ module.exports = {
     // 'routeros',
     // 'rsl',
     // 'ruleslanguage',
-    // 'rust',
+    'rust',
     // 'sas',
     // 'scala',
     // 'scheme',
@@ -253,13 +253,13 @@ module.exports = {
 
   // 自定义组件
   components: [
-    'audio-player',             // 音频组件，建议保留，由于小程序原生audio存在诸多问题，towxml解决了原生音频播放器的相关问题
-    'echarts',                  // echarts图表支持
+    // 'audio-player',             // 音频组件，建议保留，由于小程序原生audio存在诸多问题，towxml解决了原生音频播放器的相关问题
+    // 'echarts',                  // echarts图表支持
     'latex',                    // 数学公式支持
     'table',                    // 表格支持
     'todogroup',                // todo支持
-    'yuml',                     // yuml图表支持
-    'img'                       // 图片解析组件
+    // 'yuml',                     // yuml图表支持
+    // 'img'                       // 图片解析组件
   ],
 
   // 保留原本的元素属性（建议不要变动）
@@ -287,5 +287,5 @@ module.exports = {
   dpr: 1,
 
   // 代码块显示行号
-  showLineNumber: true
+  showLineNumber: false
 }
