@@ -11,8 +11,8 @@ Component({
 	data: {
 	},
 	methods: {
-		_change:function(...arg){
-			if(global._events && typeof global._events.change === 'function'){
+		_change: function (...arg) {
+			if (global._events && typeof global._events.change === 'function') {
 				global._events.change(...arg);
 			}
 		}

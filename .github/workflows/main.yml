@@ -2,13 +2,13 @@
 
 name: Build
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,14 +30,14 @@ jobs:
         run: |
           yarn
           yarn run build
-          
+
       # Runs a set of commands using the runners shell
       - name: Update dist folder to repository
         env:
           # 仓库用户名
-          REPO_USERNAME: ""
+          REPO_USERNAME: ''
           # GitHub Pages仓库名
-          DIST_REPO: ""
+          DIST_REPO: ''
           # GitHub Token
           GITHUB_TOKEN: ${{ secrets.G_TOKEN }}
 

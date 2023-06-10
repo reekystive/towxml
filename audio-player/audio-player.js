@@ -9,26 +9,26 @@ Component({
 			value: {}
 		}
 	},
-	lifetimes:{
+	lifetimes: {
 		// 页面生命周期
-		attached:function(){
+		attached: function () {
 			const _ts = this,
 				audio = _ts.audio = new Audio(this.data.data);
 
-			audio.eventPlay = function(){
-				_ts.setData({tips:{state:'h2w__audio--play',text:'Playing'}});
+			audio.eventPlay = function () {
+				_ts.setData({ tips: { state: 'h2w__audio--play', text: 'Playing' } });
 			};
-			audio.eventCanplay = function(){
-				_ts.setData({tips:{state:'h2w__audio--readyed',text:'Readyed'}});
+			audio.eventCanplay = function () {
+				_ts.setData({ tips: { state: 'h2w__audio--readyed', text: 'Readyed' } });
 			};
-			audio.eventTimeUpdate = function(duration,currentTime){
-				_ts.setData({time:{currentTime:currentTime,duration:duration,schedule:Math.round(_ts.audio.currentTime) / Math.round(_ts.audio.duration) * 100 + '%'}});
+			audio.eventTimeUpdate = function (duration, currentTime) {
+				_ts.setData({ time: { currentTime: currentTime, duration: duration, schedule: Math.round(_ts.audio.currentTime) / Math.round(_ts.audio.duration) * 100 + '%' } });
 			};
-			audio.eventPause = function(){
-				_ts.setData({tips:{state:'h2w__audio--pause',text:'Pause'}});
+			audio.eventPause = function () {
+				_ts.setData({ tips: { state: 'h2w__audio--pause', text: 'Pause' } });
 			};
-			audio.eventStop = function(){
-				_ts.setData({tips:{state:'h2w__audio--end',text:'End'}});
+			audio.eventStop = function () {
+				_ts.setData({ tips: { state: 'h2w__audio--end', text: 'End' } });
 			};
 
 
@@ -65,24 +65,24 @@ Component({
 			// };
 
 		},
-		moved:function(){
+		moved: function () {
 			_ts.audio.stop();
 			_ts.audio.destroy();
 		},
-		detached:()=>{
+		detached: () => {
 			_ts.audio.stop();
 			_ts.audio.destroy();
 		},
 	},
 	data: {
-		tips:{
-			state:'',
-			text:'--'
+		tips: {
+			state: '',
+			text: '--'
 		},
 		time: {
-			currentTime:'00:00:00',
-			duration:'00:00:00',
-			schedule:'0%'
+			currentTime: '00:00:00',
+			duration: '00:00:00',
+			schedule: '0%'
 		}
 	},
 	methods: {
@@ -93,10 +93,10 @@ Component({
 			// console.log(audio);
 
 			audio.isTouch = true;
-			if(audio.status === 'update' || audio.status === 'play'){
+			if (audio.status === 'update' || audio.status === 'play') {
 				// console.log('pause');
 				audio.pause();
-			}else{
+			} else {
 				// console.log('play');
 				audio.play();
 			};

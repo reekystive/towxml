@@ -66,7 +66,7 @@ Component({
 				return chart;
 			};
 		},
-		moved: function () {},
+		moved: function () { },
 		detached: () => {
 
 		},
